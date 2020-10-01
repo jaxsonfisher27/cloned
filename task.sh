@@ -1,0 +1,6 @@
+date
+cal
+pwd
+ls
+
+
