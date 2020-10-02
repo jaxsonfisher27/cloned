@@ -2,10 +2,6 @@
 
 #This bash script is used to backup a user's home directory to /tmp/.
 
-#I changed the input to "/c/Users/$user" originally, but because it actually started the process
-# and took a very long time to complete, I decided to change it to "/Users/$user". It doesn't work
-# the way it was supposed to, but it is better than when it ran for ages without bearing results.
-
 function backup {
 
 	if [ -z $1 ]; then
@@ -18,7 +14,7 @@ function backup {
 		user=$1
 	fi
 
-	input=/Users/$user
+	input=/c/Users/$user
 	output=/tmp/${user}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 	#The function total_files reports a total number of files for a given directory.
