@@ -19,7 +19,7 @@ function backup {
 
 	#The function total_files reports a total number of files for a given directory.
 	function total_files {
-		find $1 -type f | wc -1
+		find $1 | wc -1
 	}
 
 	#The function total_directories reports a total number of directories
