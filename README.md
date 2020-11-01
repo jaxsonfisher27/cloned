@@ -14,3 +14,6 @@ References
 	Rendek, L. (2020, May 27). Bash Scripting Tutorial for Beginners. Retrieved October 02, 2020, from https://linuxconfig.org/bash-scripting-tutorial-for-beginners
 Collaboration
 	I collaborated with my partner Jaxson Fisher, by sharing my GitHub link with him. I also referred to Slack for some help with the assignment, and asked a question regarding the submission, which professor Rita Mitra answered for me. 
+	
+Code Review (Jaxson Fisher)
+This project looks pretty good, the lab instructions were followed to a T with the exception of pathing file differences similar to mine as our computers have different directory layouts. I don't believe there are any prominent errors in the code, everything seems to be in line with the lab details so I don't have any suggestions for alterations in the code given what surface level knowledge I now have of shellscript. I believe the code is indented properly as it's near identical to the instructions and everything ran fine when I tested it in the bash compiler.
